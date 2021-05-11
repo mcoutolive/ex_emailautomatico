@@ -1,0 +1,14 @@
+import os
+import win32com.client 
+
+def send_mail():
+
+    msg = win32com.client.Dispatch("Outlook.application").CreateItem(0)     
+    msg.To = 'mcoutolive@gmail.com'
+    msg.Subject = 'Exemplo 1'    
+    msg.HtmlBody = '''ola'''
+    msg.Attachments.Add(os.path.dirname(__file__) + '/imagem.jpg')
+    msg.Display()
+    #msg.Send()
+       
+send_mail()
