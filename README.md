@@ -1,1 +1,1 @@
-# exemplo_emailautomatico
+# Exemplo_e-mail_automatico
