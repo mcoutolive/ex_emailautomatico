@@ -1,1 +1,3 @@
-# Exemplo_e-mail_automatico
+# Exemplo de codigo em Python para automacao de envio de e-mail
+
+
